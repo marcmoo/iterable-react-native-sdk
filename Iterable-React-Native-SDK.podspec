@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license        = package['license']
   s.author         = package['author']
   s.homepage       = package['homepage']
-  s.source         = { :git => 'git+https://github.com/Iterable/react-native-sdk.git', :tag => s.version }
+  s.source         = { :git => 'git+https://github.com/marcmoo/iterable-react-native-sdk.git', :tag => s.version }
 
   s.requires_arc   = true
   s.platform       = :ios, '10.0'
